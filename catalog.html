@@ -1,104 +1,103 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Каталог|Барбершоп «Бородинский»</title>
-  </head>
-  <body>
-    <header class="main-header">
-        <div class="container">
-            <nav class="main-navigation">
-                <ul>
-                    <li>
-                        <a href="#"><img src="logo" width="100" height="30" alt="Barbershop"></a>
-                    </li>
-                    <li>
-                        <a href="#">Информация</a>
-                    </li>
-                    <li>
-                        <a href="#">Новости</a>
-                    </li>
-                    <li>
-                        <a href="#">Прайс-лист</a>
-                    </li>
-                    <li>
-                        <a href="#">Магазин</a>
-                    </li>
-                    <li>
-                        <a href="#">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="user-block">
-                <a class="login" href="#">Вход</a>
-            </div>
-        </div>
+  	<head>
+    	<meta charset="utf-8">
+    	<title>Каталог|Барбершоп «Бородинский»</title>
+  	</head>
+	<body>
+    	<header class="page-header">
+        	<div class="container">
+				<div>
+					<a href="#"><img src="logo" width="100" height="30" alt="Barbershop"></a>
+				</div>
+				<nav class="main-navigation">
+					<ul>
+						<li>
+							<a href="#">Информация</a>
+						</li>
+						<li>
+							<a href="#">Новости</a>
+						</li>
+						<li>
+							<a href="#">Прайс-лист</a>
+						</li>
+						<li>
+							<a href="#" class="current">Магазин</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="user-block">
+					<a class="login" href="#">Вход</a>
+            	</div>
+        	</div>
         </header>
-    <main class="catalog-container">
+    	<main class="container">
             <h1>Средства для ухода</h1>
             <nav class="catalog-breadcrumbs">
                 <ul>
                     <li>
                         <a href="#">Главная</a>
-                        <ul>
-                            <li>
-                                <a href="#">Магазин</a>
-                                <ul>
-                                    <li>
-                                    Средства для ухода
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>          
+					</li>
+                    <li>
+						<a href="#">Магазин</a>
+					</li>
+					<li>
+                       Средства для ухода
+                    </li>
                 </ul>
             </nav>
             <div class="catalog-content">
                 <div class="properties">
                     <form action="#" method="get">
-                        <h2>Производители</h2>
-                        
-                        <input id="Baxter" type="checkbox" checked>
-                        <label for="Baxter">Baxter of California</label>
-                        <br>
-                        <input id="Mr" type="checkbox">
-                        <label for="Mr">Mr Natty</label>
-                        <br>
-                        <input id="Suavecito" type="checkbox" checked>
-                        <label for="Suavecito">Suavecito</label>
-                        <br>
-                        <input id="M+G" type="checkbox">
-                        <label for="M+G">Malin+Goetz</label>
-                        <br>
-                        <input id="Murray's" type="checkbox">
-                        <label for="Murray's">Murray's</label>
-                        <br>
-                        <input id="American" type="checkbox" checked>
-                        <label for="American">American crew</label>
+						<fieldset>
+							<legend>Производители</legend>
+
+							<input id="Baxter" type="checkbox" checked>
+							<label for="Baxter">Baxter of California</label>
+
+							<input id="Mr" type="checkbox">
+							<label for="Mr">Mr Natty</label>
+
+							<input id="Suavecito" type="checkbox" checked>
+							<label for="Suavecito">Suavecito</label>
+
+							<input id="M+G" type="checkbox">
+							<label for="M+G">Malin+Goetz</label>
+
+							<input id="Murray's" type="checkbox">
+							<label for="Murray's">Murray's</label>
+
+							<input id="American" type="checkbox" checked>
+							<label for="American">American crew</label>
+                    	</fieldset>
+                    	<fieldset>
+							<legend>Группы товаров</legend>
+							<label>
+								<input name="product-group" value="shaving accessories" type="radio">
+								Бритвенные принадлежности
+							</label>
+
+							<label>
+								<input name="product-group" value="care preparation" type="radio" checked>
+								Средства для ухода
+							</label>
+
+							<label>
+								<input name="product-group" value="accessories" type="radio">
+								Аксессуары
+							</label>
+						</fieldset>
                     </form>
-                    <form>
-                        <h2>Группы товаров</h2>
-                        <label>
-                            <input name="product group" value="shaving accessories" type="radio">
-                            Бритвенные принадлежности
-                        </label>
-                        <br>
-                        <label>
-                            <input name="product group" value="care preparation" type="radio" checked>
-                            Средства для ухода
-                        </label>
-                        <br>
-                        <label>
-                            <input name="product group" value="accessories" type="radio">
-                            Аксессуары
-                        </label>
-                    </form>
+					<button>Показать</button>
                 </div>
                 <div class="items">
                     <article class="item">
                         <img src="http://placehold.it/150x100">
-                        <p>Набор для путешествий<br>
-                            "BAXTER OF CALIFORNIA"</p>
+                        <p>Набор для путешествий<p>
+                        <p>"BAXTER OF CALIFORNIA"</p>
                         <div class="buy">
                             <div class="price">
                             2 900 РУБ.
@@ -108,8 +107,8 @@
                     </article>
                     <article class="item">
                         <img src="http://placehold.it/150x100">
-                        <p>Увлажняющий кондиционер<br>
-                            "BAXTER OF CALIFORNIA"</p>
+						<p>Увлажняющий кондиционер</p>
+						<p>"BAXTER OF CALIFORNIA"</p>
                         <div class="buy">
                             <div class="price">
                             750 РУБ.
@@ -119,8 +118,8 @@
                     </article>
                     <article class="item">
                         <img src="http://placehold.it/150x100">
-                        <p>Гель для волос<br>
-                            "SUAVECITO"</p>
+						<p>Гель для волос</p>
+                        <p>"SUAVECITO"</p>
                         <div class="buy">
                             <div class="price">
                             290 РУБ.
@@ -130,8 +129,8 @@
                     </article>
                     <article class="item">
                         <img src="http://placehold.it/150x100">
-                        <p>Глина для укладки волос<br>
-                            "AMERICAN CREW"</p>
+						<p>Глина для укладки волос</p>
+						<p>"AMERICAN CREW"</p>
                         <div class="buy">
                             <div class="price">
                             500 РУБ.
@@ -141,8 +140,8 @@
                     </article>
                     <article class="item">
                         <img src="http://placehold.it/150x100">
-                        <p>Гель для волос<br>
-                            "AMERICAN CREW"</p>
+						<p>Гель для волос</p>
+						<p>"AMERICAN CREW"</p>
                         <div class="buy">
                             <div class="price">
                             300 РУБ.
@@ -152,8 +151,8 @@
                     </article>
                     <article class="item">
                         <img src="http://placehold.it/150x100">
-                        <p>Набор для бритья<br>
-                            "BAXTER OF CALIFORNIA"</p>
+						<p>Набор для бритья</p>
+						<p>"BAXTER OF CALIFORNIA"</p>
                         <div class="buy">
                             <div class="price">
                             3 900 РУБ.
@@ -163,14 +162,24 @@
                     </article>
                 </div>
             </div>
-            <nav class="pages-navigation">
-                <a href="#">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-            </nav>
+            <div class="paginator">
+				<ul class="pages-list">
+					<li>
+						<a href="#">1</a>
+					</li>
+					<li class="current">
+						2
+					</li>
+					<li>
+						<a href="#">3</a>
+					</li>
+                	<li>
+						<a href="#">4</a>
+					</li>
+                </ul>
+            </div>
         </main>
-    <footer class="main-footer">
+    	<footer class="page-footer">
             <div class="container">
                 <section class="footer-contacts">
                   Барбершоп «Бородинский»<br>
@@ -190,6 +199,6 @@
                 </section>
             </div>
         </footer>
-    </body>
+	</body>
 </html>
         
